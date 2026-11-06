@@ -1,0 +1,10 @@
+[Unit]
+Description=Mandar el cierre de semana de TEC Digital cada viernes a las 20:00
+
+[Timer]
+OnCalendar=Fri *-*-* 20:00:00
+# Si la compu estaba apagada el viernes a las 20:00, lo manda apenas se encienda
+Persistent=true
+
+[Install]
+WantedBy=timers.target

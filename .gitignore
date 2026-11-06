@@ -1,0 +1,18 @@
+# Secretos: .env y cualquier respaldo suyo (.env.save, .env.bak, ...). Solo se sube la plantilla.
+.env
+.env.*
+!.env.example
+
+# Datos personales que genera la app
+agenda.db
+panel.html
+.programas.json
+fechas.txt
+
+# Notas personales de trabajo
+ESTADO.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/

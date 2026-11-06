@@ -1,0 +1,7 @@
+[Unit]
+Description=Correo semanal con lo pendiente en TEC Digital
+
+[Service]
+Type=oneshot
+WorkingDirectory=__DIR__
+ExecStart=__PYTHON__ __DIR__/tec_agenda.py --resumen

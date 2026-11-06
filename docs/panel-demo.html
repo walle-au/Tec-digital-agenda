@@ -1,0 +1,32 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Agenda TEC Digital</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--fg:#1d2330;--muted:#6b7280;--line:#e5e7eb;--red:#c0392b;--redbg:#fdecea;--amber:#9a6700;--amberbg:#fff6dd;--link:#1f5fbf;--ok:#1e7d3a;--okbg:#e3f4e8}
+@media (prefers-color-scheme:dark){:root{--bg:#14161b;--card:#1d2027;--fg:#e8eaef;--muted:#9aa1ad;--line:#2c3039;--red:#ff8a80;--redbg:#3a1f1e;--amber:#ffd27a;--amberbg:#3a3120;--link:#8ab4ff;--ok:#7fd99a;--okbg:#1f3326}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,sans-serif}
+main{max-width:960px;margin:0 auto;padding:24px 16px}
+h1{margin:0 0 4px;font-size:24px} .upd{color:var(--muted);margin-bottom:20px}
+h2{font-size:17px;margin:28px 0 8px} .n{background:var(--line);border-radius:10px;padding:1px 8px;font-size:13px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.num{white-space:nowrap;font-variant-numeric:tabular-nums} .sub{color:var(--muted);font-size:13px}
+tr.urgente td{background:var(--redbg)} tr.urgente .num{color:var(--red);font-weight:600}
+tr.pronto td{background:var(--amberbg)} tr.pronto .num{color:var(--amber);font-weight:600}
+a{color:var(--link);text-decoration:none} .vacio{color:var(--muted)}
+.est{font-size:12px;font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.est.ok{background:var(--okbg);color:var(--ok)} .est.no{background:var(--line);color:var(--muted)}
+tr.urgente .est.no{background:var(--red);color:var(--card)}
+tr.hecha td{color:var(--muted)} tr.hecha a{color:var(--muted)}
+.solo-movil{display:none;margin-top:4px}
+@media (max-width:600px){
+  th:nth-child(2),td:nth-child(2),th:nth-child(5),td:nth-child(5){display:none}
+  .solo-movil{display:block} th,td{padding:8px 8px} main{padding:20px 12px}
+}
+</style></head><body><main>
+<h1>Agenda TEC Digital</h1><div class="upd">Actualizado jue 05/11 21:38</div>
+<h2>Próximos cierres <span class='n'>5 sin entregar</span></h2><table><thead><tr><th>Asignación</th><th>Curso</th><th>Cierra</th><th>Falta</th><th>Estado</th></tr></thead><tbody><tr class="urgente"><td>Abstract y referencias<div class="sub">Paper · vale 3.00</div><div class="solo-movil"><span class="est no">Sin entregar</span></div></td><td>Arquitectura de computadoras I GR 20</td><td class="num">vie 06/11 02:00</td><td class="num">4 h 21 min</td><td><span class="est no">Sin entregar</span></td></tr><tr class="pronto"><td>Tarea 10<div class="sub">Tareas · vale 0.00</div><div class="solo-movil"><span class="est no">Sin entregar</span></div></td><td>Señales y sistemas GR 20 · Tutoría</td><td class="num">sáb 07/11 12:00</td><td class="num">1 d 14 h</td><td><span class="est no">Sin entregar</span></td></tr><tr class="hecha"><td>Informe de laboratorio 3<div class="sub">Laboratorio · vale 10.00</div><div class="solo-movil"><span class="est ok">✔ Entregada</span></div></td><td>Control automático GR 20</td><td class="num">dom 08/11 23:00</td><td class="num">3 d 1 h</td><td><span class="est ok">✔ Entregada</span></td></tr><tr class=""><td>Proyecto 4<div class="sub">Proyectos · vale 10.00</div><div class="solo-movil"><span class="est no">Sin entregar</span></div></td><td>Arquitectura de computadoras I GR 20</td><td class="num">sáb 14/11 18:00</td><td class="num">8 d 20 h</td><td><span class="est no">Sin entregar</span></td></tr><tr class=""><td>Informe proyecto 4<div class="sub">Proyectos · vale 15.00</div><div class="solo-movil"><span class="est no">Sin entregar</span></div></td><td>Normalización técnica GR 20</td><td class="num">mar 17/11 23:00</td><td class="num">12 d 1 h</td><td><span class="est no">Sin entregar</span></td></tr><tr class=""><td>Diseño de controladores<div class="sub">Evaluación Unidad 4 · vale 30.00</div><div class="solo-movil"><span class="est no">Sin entregar</span></div></td><td>Control automático GR 20</td><td class="num">dom 22/11 23:00</td><td class="num">17 d 1 h</td><td><span class="est no">Sin entregar</span></td></tr></tbody></table>
+<h2>Exámenes <span class='n'>2</span></h2><table><thead><tr><th>Asignación</th><th>Curso</th><th>Fecha</th><th>Falta</th><th>Estado</th></tr></thead><tbody><tr class=""><td>Examen final<div class="sub">fuente: programa del curso · vale 40.00</div></td><td>Señales y sistemas GR 20</td><td class="num">mié 25/11</td><td class="num">20 días</td><td></td></tr><tr class=""><td>Examen 2<div class="sub">fuente: fechas.txt</div></td><td>Arquitectura de computadoras I GR 20</td><td class="num">jue 26/11 18:00</td><td class="num">21 días</td><td></td></tr></tbody></table>
+<h2>Sin fecha definida <span class='n'>1</span></h2><table><thead><tr><th>Asignación</th><th>Curso</th><th>Cierra</th><th>Falta</th><th>Estado</th></tr></thead><tbody><tr class=""><td>Proyecto 5<div class="sub">Proyectos · vale 10.00</div><div class="solo-movil"><span class="est no">Sin entregar</span></div></td><td>Arquitectura de computadoras I GR 20</td><td class="num">sin fecha</td><td class="num"></td><td><span class="est no">Sin entregar</span></td></tr></tbody></table>
+<h2>Cerraron sin entrega (últimos 7 días)</h2><p class='vacio'>Nada por aquí 🎉</p>
+</main></body></html>

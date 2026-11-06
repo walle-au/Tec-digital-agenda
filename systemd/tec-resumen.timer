@@ -1,0 +1,10 @@
+[Unit]
+Description=Mandar el resumen de TEC Digital cada lunes a las 7:00
+
+[Timer]
+OnCalendar=Mon *-*-* 07:00:00
+# Si la compu estaba apagada el lunes a las 7, lo manda apenas se encienda
+Persistent=true
+
+[Install]
+WantedBy=timers.target

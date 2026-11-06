@@ -1,0 +1,9 @@
+[Unit]
+Description=Servir panel.html de TEC Digital (solo localhost; Tailscale lo pasa al celular)
+
+[Service]
+ExecStart=__PYTHON__ __DIR__/servir_panel.py
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

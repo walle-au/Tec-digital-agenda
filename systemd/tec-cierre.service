@@ -1,0 +1,7 @@
+[Unit]
+Description=Correo de cierre de semana de TEC Digital
+
+[Service]
+Type=oneshot
+WorkingDirectory=__DIR__
+ExecStart=__PYTHON__ __DIR__/tec_agenda.py --cierre-semana

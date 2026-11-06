@@ -1,0 +1,9 @@
+# Copia este archivo como fechas.txt.
+# Exámenes y fechas que no salen en TEC Digital (por ejemplo, lo que se define en clase).
+# Una línea por examen:   curso | nombre del examen | dd/mm/aaaa hh:mm
+# - "curso" basta con una parte del nombre (Arqui, Señales, Control...).
+# - La hora es opcional.
+# - Si el mismo examen sale en el programa del curso, la fecha de aquí manda.
+
+Arqui | Examen 2 | 03/12/2026 18:00
+Control | Examen parcial 2 | 26/11/2026
